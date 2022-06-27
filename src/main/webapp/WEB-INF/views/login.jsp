@@ -8,7 +8,7 @@
 </head>
 <body>
 
-Primeiros passos com JSP 
+<h1>Seu nome é : ${name}</h1>
 
 
 </body>

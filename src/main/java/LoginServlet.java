@@ -19,13 +19,16 @@ public class LoginServlet extends HttpServlet{
 //O contêiner da web inicializa um servlet após carregar e instanciar a classe de servlet e antes de entregar solicitações de clientes.
 //Para customizar esse processo para permitir que o servlet leia dados de configuração persistentes, inicialize recursos e execute qualquer outra atividade única
 
-
-	
-	
 	  protected void doGet(HttpServletRequest request, HttpServletResponse response) 
 			  throws 
 			   	ServletException, IOException{
+		  String name = request.getParameter("name");
+		  
+		  request.setAttribute("name", name);
+		  				// atributo e valor 
+
 		  request.getRequestDispatcher("/WEB-INF/views/login.jsp").forward(request, response);
-		
+		  
+		  
 	  }
 }
