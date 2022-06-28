@@ -28,7 +28,14 @@ public class LoginServlet extends HttpServlet{
 		  				// atributo e valor 
 
 		  request.getRequestDispatcher("/WEB-INF/views/login.jsp").forward(request, response);
-		  
-		  
 	  }
-}
+
+	  protected void doPost(HttpServletRequest request, HttpServletResponse response) 
+		  throws
+		  	ServletException, IOException{
+			  
+		  request.getRequestDispatcher("/WEB-INF/views/welcome.jsp").forward(request, response);
+		
+		}
+	}
+
