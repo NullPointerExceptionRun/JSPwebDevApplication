@@ -17,10 +17,11 @@ Date date = new Date();
 %>
 <div>Current date is <%=date%> </div>
 
-<h1>Seja Bem vindo ${name} & password is ${password}</h1>
 
-<form action="/login.do" method="POST">
-Enter your name<input type="text" name="name"/> <input type="submit" value="enviar"/>
+
+<form action="/login.do" method="post">
+<p><font color="red">${errorMessage}</font></p>
+Name: <input type="text" name="name"/> Password: <input type="password" name="password" value="enviar"/><input type="submit" name="submit" value="enviar"/>
 
 </form>
 
