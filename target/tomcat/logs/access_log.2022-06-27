@@ -53,3 +53,4 @@
 0:0:0:0:0:0:0:1 - - [27/Jun/2022:18:29:29 -0300] "GET /?name=marcos%20pereira%20marcondes HTTP/1.1" 200 259 http-bio-8080-exec-2 3
 0:0:0:0:0:0:0:1 - - [27/Jun/2022:18:29:30 -0300] "GET /?name=marcos%20pereira%20marcondes HTTP/1.1" 200 259 http-bio-8080-exec-2 1
 0:0:0:0:0:0:0:1 - - [27/Jun/2022:20:04:50 -0300] "GET /?name=marcos%20pereira%20marcondes&password=somepassword HTTP/1.1" 404 949 http-bio-8080-exec-5 95
+0:0:0:0:0:0:0:1 - - [27/Jun/2022:20:07:23 -0300] "GET /?name=hello&password=senha HTTP/1.1" 200 250 http-bio-8080-exec-2 1150

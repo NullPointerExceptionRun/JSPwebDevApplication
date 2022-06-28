@@ -19,5 +19,11 @@ Date date = new Date();
 
 <h1>Seja Bem vindo ${name} & password is ${password}</h1>
 
+<form action="/login.do" method="POST">
+Enter your name<input type="text" name="name"/> <input type="submit" value="enviar"/>
+
+</form>
+
+
 </body>
 </html>
