@@ -48,8 +48,8 @@ public class LoginServlet extends HttpServlet{
 		  
 
 		  if(isUserValid) {
-		  request.setAttribute("todos", todoService.retrieveTodos());
-		  request.getRequestDispatcher("/WEB-INF/views/todo.jsp").forward(request, response);
+			request.getSession().setAttribute("name", name);
+			response.sendRedirect("/todo.do");
 		  
 		  } else {			 
 			  request.setAttribute("errorMessage", "Invalid Crendetials");
