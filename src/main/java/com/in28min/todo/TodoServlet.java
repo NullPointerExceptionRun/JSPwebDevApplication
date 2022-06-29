@@ -30,7 +30,6 @@ public class TodoServlet extends HttpServlet{
 		  
 		  request.setAttribute("name", request.getParameter("name"));
 		  request.setAttribute("password", request.getParameter("password"));
-
 		  request.getRequestDispatcher("/WEB-INF/views/todo.jsp").forward(request, response);
 	  }
 	  
