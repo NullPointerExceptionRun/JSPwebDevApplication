@@ -11,12 +11,12 @@
 <title>Page test To do</title>
 </head>
 <body>
-<p>Welcome ${name}</p>
-<p>page Todo JSP</p>
+<h1>Yara perfeita blog ${name}</h1>
+<p>blog dedicado para falar bem da mina mais perfeita do mundo</p>
 <div>
 <ol>
 <c:forEach items="${todos}" var="todo">
-   <li>${todo.name}</li>
+   <li>${todo.name}  &nbsp; &nbsp; <a href="/delete-todo.do?todo=${todo.name}">Delete</a></li>
 </c:forEach>
 </ol>
 
