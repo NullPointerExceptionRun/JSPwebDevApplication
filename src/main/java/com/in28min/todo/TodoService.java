@@ -15,4 +15,9 @@ public class TodoService {
 	public List<Todo> retrieveTodos(){
 		return todos;
 	}
+	
+	
+	public void addTodo(Todo todo) {
+		todos.add(todo);
+	}
 }
