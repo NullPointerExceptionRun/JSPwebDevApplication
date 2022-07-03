@@ -30,7 +30,7 @@
 		</ul>
 
 		<ul class="nav navbar-nav ">
-			<li><a href="/login.do">Login</a></li>
+			<li><a href="/logout.do">Logout</a></li>
 		</ul>
 
 	</nav>
