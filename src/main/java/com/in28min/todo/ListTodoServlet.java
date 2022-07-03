@@ -12,7 +12,7 @@ import java.io.IOException;
 //anotação para extender as classes do Javax.servlet.http
 //urlPatterns é um atributo da anotação para padronizar as URLS
 @WebServlet(urlPatterns = "/todo.do")
-public class TodoServlet extends HttpServlet{
+public class ListTodoServlet extends HttpServlet{
 //As classes anotadas com @WebServlet precisam extends as classes javax.servlet.HTTP 	(HttpServlet)
 	
 	

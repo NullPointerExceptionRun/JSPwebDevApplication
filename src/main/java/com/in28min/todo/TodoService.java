@@ -7,9 +7,9 @@ public class TodoService {
 
 	private static List<Todo> todos = new ArrayList<Todo>();
 	static {
-		todos.add(new Todo("ela gosta de fisica e matematica"));
-		todos.add(new Todo("As vezes fico apenas ouvindo sua voz, me acalma bastante"));
-		todos.add(new Todo("Ela sempre ta certa tambem em tudo"));
+		todos.add(new Todo("Welcome to page"));
+		todos.add(new Todo("Add new Items"));
+		todos.add(new Todo("Release new features"));
 	}
 	
 	public List<Todo> retrieveTodos(){
